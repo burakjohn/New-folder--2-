@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+nav ul {
+  display: flex;
+  text-decoration: none;
+  float: right;
+  height: auto;
+  padding-right: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1em 1em 0 0;
+  font-size: 0.8125rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.pp {
+  margin-left: 12px;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+section {
+  position: absolute;
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section .search-bar {
+  display: flex;
+  height: 44px;
+  width: 584px;
+  max-width: 584px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  background-color: #fff;
+  margin: 24px auto;
+}
+
+.nav-span {
+  margin: 12px;
+  color: #9aa0a6;
+  height: 24px;
+  width: 24px;
+  fill: #9aa0a6;
+}
+
+section span {
+  margin: 0.7em 1em 0 1em;
+  color: #9aa0a6;
+  height: 32px;
+  width: 32px;
+  fill: #9aa0a6;
+}
+
+.search-bar input {
+  border: none;
+  margin: 4px 16px;
+  width: 100%;
+}
+
+section p {
+  margin-top: 12px;
+  display: inline-block;
+  font-size: 0.8125rem;
+  color: #3c4043;
+  line-height: 28px;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 36px;
+  margin: 11px 4px;
+  font-size: 0.875rem;
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  padding: 0 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn:hover,
+.btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+footer ul {
+  margin: 0 1.4em;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: #70757a;
+  padding: 15px;
+}
